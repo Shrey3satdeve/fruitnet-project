@@ -1,0 +1,6 @@
+torch-directml
+numpy
+Pillow
+opencv-python
+matplotlib
+tqdm
