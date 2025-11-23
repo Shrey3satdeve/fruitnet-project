@@ -50,8 +50,8 @@ FruitNet-Project/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/FruitNet-Project.git
-cd FruitNet-Project
+git clone https://github.com/Shrey3satdeve/fruitnet-project.git
+cd fruitnet-project
 ```
 
 2. **Create virtual environment:**
@@ -131,28 +131,53 @@ Final Training Metrics:
 
 ```python
 # Load and test any fruit image
-python src/test_inference.py "examples/apple.jpg"
+python src/test_inference.py "examples/your_fruit.jpg"
 
 # Output:
 # Predicted Fruit: Apple_Good
 # Predicted Quality: Good Quality_Fruits
 ```
 
-## 📊 Dataset Structure
+**Note:** Sample images available in `examples/` folder. Full dataset available on request.
+
+## 📊 Dataset
+
+### **Download Dataset:**
+- **📁 Size:** 19,555 fruit images (~3.2 GB)
+- **📂 Format:** JPEG images organized in hierarchical folders
+- **🔗 Download Link:** [Contact for Dataset Access](mailto:shreyashsatadeve@gmail.com)
+- **☁️ Alternative:** Available on request via Google Drive/OneDrive
+
+### **Dataset Structure:**
 ```
 data/
-├── Good Quality_Fruits/
-│   ├── Apple_Good/
-│   ├── Banana_Good/
-│   └── ...
-├── Bad Quality_Fruits/
-│   ├── Apple_Bad/
-│   ├── Orange_Bad/
-│   └── ...
+├── Good_Quality_Fruits/
+│   ├── Apple_Good/           # 1,149 images
+│   ├── Banana_Good/          # 1,113 images  
+│   ├── Guava_Good/           # 1,152 images
+│   ├── Lime_Good/            # 1,094 images
+│   ├── Orange_Good/          # 1,216 images
+│   └── Pomegranate_Good/     # 5,940 images
+├── Bad_Quality_Fruits/
+│   ├── Apple_Bad/            # 1,141 images
+│   ├── Banana_Bad/           # 1,087 images
+│   ├── Guava_Bad/            # 1,129 images
+│   ├── Lime_Bad/             # 1,085 images
+│   ├── Orange_Bad/           # 1,159 images
+│   └── Pomegranate_Bad/      # 1,187 images
 └── Mixed_Quality_Fruits/
-    ├── Apple/
-    ├── Banana/
-    └── ...
+    ├── Apple/                # 113 images
+    ├── Banana/               # 285 images
+    ├── Guava/                # 148 images
+    ├── Lemon/                # 278 images
+    ├── Orange/               # 125 images
+    └── Pomegranate/          # 125 images
+```
+
+### **Quick Start without Dataset:**
+```bash
+# Use our pre-trained model for immediate testing
+python src/test_inference.py "your_fruit_image.jpg"
 ```
 
 ## 🛡️ Requirements
@@ -185,9 +210,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Project Author**: Your Name  
-**Email**: your.email@example.com  
-**LinkedIn**: [Your LinkedIn Profile]
+**Contact Author**: Shreyash Satadeve  
+**Email**: shreyashsatadeve@gmail.com  
+**GitHub**: [@Shrey3satdeve](https://github.com/Shrey3satdeve)  
+**Project Repository**: [fruitnet-project](https://github.com/Shrey3satdeve/fruitnet-project)
 
 ---
 
