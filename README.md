@@ -145,7 +145,7 @@ python src/test_inference.py "examples/your_fruit.jpg"
 ### **Download Dataset:**
 - **📁 Size:** 19,555 fruit images (~3.2 GB)
 - **📂 Format:** JPEG images organized in hierarchical folders
-- **🔗 Download Link:** [Contact for Dataset Access](mailto:shreyashsatadeve@gmail.com)
+- **🔗 Download Link:** [Contact for Dataset Access](https://www.kaggle.com/datasets/shashwatwork/fruitnet-indian-fruits-dataset-with-quality?select=Processed+Images_Fruits)
 - **☁️ Alternative:** Available on request via Google Drive/OneDrive
 
 ### **Dataset Structure:**
