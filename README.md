@@ -131,7 +131,7 @@ Final Training Metrics:
 
 ```python
 # Load and test any fruit image
-python src/test_inference.py "examples/your_fruit.jpg"
+python src/test_inference.py "[examples/your_fruit.jpg](https://docs.google.com/videos/d/16pUqNu5ZnT16TzpDkwDq__HbjIECLHM5FmSxeoUGwuY/edit?usp=sharing)"
 
 # Output:
 # Predicted Fruit: Apple_Good
