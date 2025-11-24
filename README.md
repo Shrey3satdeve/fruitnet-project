@@ -163,11 +163,6 @@ data/
     └── Pomegranate/          # 125 images
 ```
 
-### **Quick Start without Dataset:**
-```bash
-# Use our pre-trained model for immediate testing
-python src/test_inference.py "your_fruit_image.jpg"
-```
 
 ## 🛡️ Requirements
 
