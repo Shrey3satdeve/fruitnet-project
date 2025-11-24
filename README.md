@@ -127,7 +127,7 @@ Final Training Metrics:
 - 🌾 **Agriculture**: Harvest assessment and grading
 - 🛒 **E-commerce**: Product quality verification
 
-📺 **Live Demo Video:** [Watch FruitNet AI in Action](https://docs.google.com/videos/d/16pUqNu5ZnT16TzpDkwDq__HbjIECLHM5FmSxeoUGwuY/edit?usp=sharing)
+
 
 ## 📊 Dataset
 
@@ -191,6 +191,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+📺 **Live Demo Video:** [Watch FruitNet AI in Action](https://docs.google.com/videos/d/16pUqNu5ZnT16TzpDkwDq__HbjIECLHM5FmSxeoUGwuY/edit?usp=sharing)
 
 ## 📧 Contact
 
